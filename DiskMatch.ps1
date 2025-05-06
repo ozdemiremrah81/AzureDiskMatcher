@@ -81,7 +81,6 @@ $mergedList = foreach ($localDisk in $allDisks) {
     [PSCustomObject]@{
         DriveLetter     = $localDisk.DriveLetter
         DiskNumber      = $localDisk.DiskNumber
-        MediaType       = $localDisk.MediaType
         LUN             = $localDisk.LUN
         SizeGB          = $localDisk.SizeGB
         FileSystem      = $localDisk.FileSystem
