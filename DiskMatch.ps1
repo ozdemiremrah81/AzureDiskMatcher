@@ -1,4 +1,6 @@
-#you can pass the paramaters and it will override the values below
+#Usage: Login to your Azure Portal, open your cloud shell with powershell. 
+#Switch to correct subscription by; Set-AzContext -SubscriptionId yoursubsID 
+#Then run: ./DiskMatch.ps1 -VmName your_vmname -ResourceGroup your_rg
 param (
     [string]$ResourceGroup = "your_rg_name",
     [string]$VmName = "your_vm_name",
