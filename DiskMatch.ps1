@@ -1,7 +1,7 @@
 #you can pass the paramaters and it will override the values below
 param (
-    [string]$ResourceGroup = "disktest2_group",
-    [string]$VmName = "disktest2",
+    [string]$ResourceGroup = "your_rg_name",
+    [string]$VmName = "your_vm_name",
     [string]$OutputPath = "disks.csv"
 )
 
